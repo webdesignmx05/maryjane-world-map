@@ -1,2 +1,88 @@
 <!doctype html>
-<html><body><h1>Test</h1></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maryjane World Tour Dashboard</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🌍</div>
+      <div>
+        <h1>Maryjane World Tour</h1>
+        <p class="sub">139 countries • Travel videos only (fundraisers & “Let’s talk” excluded)</p>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-label">Countries</div>
+        <div id="statCountries" class="stat-value">–</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Videos</div>
+        <div id="statVideos" class="stat-value">–</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">First video</div>
+        <div id="statFirst" class="stat-value">–</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Latest video</div>
+        <div id="statLatest" class="stat-value">–</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="section">
+        <h2>Countries (A–Z)</h2>
+        <input id="countrySearch" class="search" placeholder="Search countries…" />
+        <div class="toolbar">
+          <button id="selectAllBtn" class="btn">Select all</button>
+          <button id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+        <div id="countryList" class="country-list"></div>
+      </div>
+
+      <div class="section">
+        <h2>Continent summary</h2>
+        <div id="continentSummary" class="continent-summary"></div>
+      </div>
+    </aside>
+
+    <!-- MAP + RESULTS -->
+    <section class="content">
+      <div id="map" class="map"></div>
+
+      <div class="panels">
+        <div class="panel">
+          <h2>Videos by country</h2>
+          <div id="results" class="results"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Chronological timeline</h2>
+          <div id="timeline" class="timeline"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- TopoJSON helper (optional) -->
+  <script src="https://unpkg.com/topojson-client@3"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
