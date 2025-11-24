@@ -1214,6 +1214,12 @@
                 "url": "https://www.youtube.com/watch?v=xSnCAkVeJs8",
                 "publishedAt": "2025-07-24T00:00:00Z",
                 "views": 4000
+            },
+            {
+                "title": "Romanticizing My Time in Paris Before Heading Back to Africa",
+                "url": "https://www.youtube.com/watch?v=orY7ElMbd9E",
+                "publishedAt": "2025-07-24T00:00:00Z",
+                "views": 6200
             }
         ]
     },
@@ -1610,7 +1616,13 @@
                 "url": "https://www.youtube.com/watch?v=hTZ-XXzDgWo&t=83s",
                 "publishedAt": "2025-08-24T00:00:00Z",
                 "views": 4500
-            }
+            },
+            {
+                "title": "IM IN ROME ! 🍝🇮🇹❤️ | STAYING IN MOST BEAUTIFUL ROMAN HOTEL 😍 | Maryjane Byarm",
+                "url": "https://www.youtube.com/watch?v=gpPtskVSSDU",
+                "publishedAt": "2018-11-24T00:00:00Z",
+                "views": 30000
+            },
         ]
     },
     {
@@ -2398,22 +2410,10 @@
         "continent": "Asia",
         "videos": [
             {
-                "title": "IM IN ROME ! 🍝🇮🇹❤️ | STAYING IN MOST BEAUTIFUL ROMAN HOTEL 😍 | Maryjane Byarm",
-                "url": "https://www.youtube.com/watch?v=gpPtskVSSDU",
-                "publishedAt": "2018-11-24T00:00:00Z",
-                "views": 30000
-            },
-            {
                 "title": "Traveling My 129th Country - Oman 🇴🇲 at the absolute WORST time of the year",
                 "url": "https://www.youtube.com/watch?v=0HvaKTon4qU",
                 "publishedAt": "2024-11-24T00:00:00Z",
                 "views": 11000
-            },
-            {
-                "title": "Romanticizing My Time in Paris Before Heading Back to Africa",
-                "url": "https://www.youtube.com/watch?v=orY7ElMbd9E",
-                "publishedAt": "2025-07-24T00:00:00Z",
-                "views": 6200
             }
         ]
     },
